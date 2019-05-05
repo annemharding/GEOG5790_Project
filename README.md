@@ -4,6 +4,8 @@ This repository contains the scripts, example data and other relevant files for 
 
 See '200754573_GEOG5790_Independent_Project.pdf' file for further information about purpose, development and use of repository.
 
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
 **Scripts**:
 - CSVDownloader.py - Python script to download all data from EA WQA and format into 1 .csv file for each EA operational region (containing all years of data).
 - CSVtoSHP.py - ArcGIS Script tool to create a .shp file containing locations of all EA water quality sampling points in England.
