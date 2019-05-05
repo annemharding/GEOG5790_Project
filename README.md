@@ -24,7 +24,7 @@ Note that the DataViewer.ipynb Jupyter Notebook must be opened in **Google Chrom
 **Tools**:
 
 This project makes use of an ArcGIS toolbox to host the 3 ArcGIS Script tools detailed above:
-- WQToolbox.tbx - ArcGIS toolbox containing Script tools.
+- [WQToolbox.tbx](https://github.com/annemharding/GEOG5790_Project/blob/master/WQToolbox.tbx) - ArcGIS toolbox containing Script tools.
 
 **Data**:
 
