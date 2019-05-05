@@ -4,6 +4,7 @@ This repository contains the scripts, example data and other relevant files for 
 
 See '200754573_GEOG5790_Independent_Project.pdf' file for further information about purpose, development and use of repository.
 
+The code is structured as follows:
 ![alt text](https://github.com/annemharding/GEOG5790_Project/blob/master/code_structure.png)
 
 **Scripts**:
