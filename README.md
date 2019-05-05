@@ -28,7 +28,7 @@ This project makes use of an ArcGIS toolbox to host the 3 ArcGIS Script tools de
 
 **Data**:
 
-The following data files are provided within the WQData_Selected.zip file (63.6 MB compressed; 1.16 GB uncompressed):
+The following data files are provided within the [WQData_Selected.zip file](https://github.com/annemharding/GEOG5790_Project/blob/master/WQData_selected.zip) (63.6 MB compressed; 1.16 GB uncompressed):
 - england_wq_locs shapefile: .shp file containing locations of all EA sampling points in England (output from initial Stage 1 data processing).
 - ea-areas.csv - .csv file containing details for each of the EA operational areas (required for Stage 1) CSVDownloader.py).
 - EA_AdminBound shapefile - .shp file containing boundaries of each EA operational area (for information).
