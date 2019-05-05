@@ -10,14 +10,24 @@ The code is structured as follows:
 ![alt text](https://github.com/annemharding/GEOG5790_Project/blob/master/code_structure.png)
 
 **Scripts**:
+The following 5 scripts are included in this repository:
 - CSVDownloader.py - Python script to download all data from EA WQA and format into 1 .csv file for each EA operational region (containing all years of data).
 - CSVtoSHP.py - ArcGIS Script tool to create a .shp file containing locations of all EA water quality sampling points in England.
 - WQLocsIdentifier.py - ArcGIS Script tool to identify EA water quality sampling points within a user-specified area.
 - WQDataExtractor.py - ArcGIS Script tool to extract EA water quality sampling data using identified sampling points.
 - DataViewer.ipynb - Jupyter Notebook to allow user to plot, map and analyse data.
-- WQToolbox.tbx - ArcGIS toolbox containing Script tools.
 
 Note that the DataViewer.ipynb Jupyter Notebook must be opened in **Google Chrome** in order to load the widgets properly in the browser. Google Chrome may be downloaded from [here.](https://www.google.co.uk/chrome/?brand=CHBD&gclid=EAIaIQobChMIl-K8u8SE4gIVS7TtCh0OLQM6EAAYASAAEgLypvD_BwE&gclsrc=aw.ds)
+
+**Tools**:
+This project makes use of an ArcGIS toolbox to host the 3 ArcGIS Script tools detailed above:
+- WQToolbox.tbx - ArcGIS toolbox containing Script tools.
+
+**Data**:
+Note that due to restrictions on individual file size and repository size, water quality data from only one of the sixteen EA operational regions has been uploaded (Northumberland Durham and Tees (3-35)). Therefore, it will only be possible to test Stage 2 (WQLocsIdentifier.py and WQDataExtractor.py) by using data contained within this EA operational region. The tool, however, does still work for all areas in England.
+The following data files are provided:
+-
+
 
 **Python Modules Required:** *(listed alphabetically)*
 - arcpy
