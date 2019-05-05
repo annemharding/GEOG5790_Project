@@ -10,6 +10,7 @@ The code is structured as follows:
 ![alt text](https://github.com/annemharding/GEOG5790_Project/blob/master/code_structure.png)
 
 **Scripts**:
+
 The following 5 scripts are included in this repository:
 - CSVDownloader.py - Python script to download all data from EA WQA and format into 1 .csv file for each EA operational region (containing all years of data).
 - CSVtoSHP.py - ArcGIS Script tool to create a .shp file containing locations of all EA water quality sampling points in England.
@@ -20,14 +21,20 @@ The following 5 scripts are included in this repository:
 Note that the DataViewer.ipynb Jupyter Notebook must be opened in **Google Chrome** in order to load the widgets properly in the browser. Google Chrome may be downloaded from [here.](https://www.google.co.uk/chrome/?brand=CHBD&gclid=EAIaIQobChMIl-K8u8SE4gIVS7TtCh0OLQM6EAAYASAAEgLypvD_BwE&gclsrc=aw.ds)
 
 **Tools**:
+
 This project makes use of an ArcGIS toolbox to host the 3 ArcGIS Script tools detailed above:
 - WQToolbox.tbx - ArcGIS toolbox containing Script tools.
 
 **Data**:
-Note that due to restrictions on individual file size and repository size, water quality data from only one of the sixteen EA operational regions has been uploaded (Northumberland Durham and Tees (3-35)). Therefore, it will only be possible to test Stage 2 (WQLocsIdentifier.py and WQDataExtractor.py) by using data contained within this EA operational region. The tool, however, does still work for all areas in England.
-The following data files are provided:
--
+The following data files are provided within the WQData_Selected.zip file:
+- england_wq_locs shapefile: .shp file containing locations of all EA sampling points in England (output from initial Stage 1 data processing).
+- ea-areas.csv - .csv file containing details for each of the EA operational areas (required for Stage 1) CSVDownloader.py).
+- EA_AdminBound shapefile - .shp file containing boundaries of each EA operational area (for information).
+- alldata_3-35.csv - Example water quality data for one of the EA operational areas (example output from Stage 1) CSVDownloader.py) (contained within 'selected_WQ_areas_downloaded_2019_04_27' subdirectory).
+- test_data_small - Folder containing outputs from Stages 2 and 3 for smaller example dataset (26 sampling points).
+- test_data_large - Folder containing outputs from Stages 2 and 3 for larger example dataset (116 sampling points).
 
+Note that due to restrictions on individual file size and repository size, water quality data from only one of the sixteen EA operational regions has been uploaded (Northumberland Durham and Tees (3-35)). Therefore, it will only be possible to test Stage 2 (WQLocsIdentifier.py and WQDataExtractor.py) by using data contained within this EA operational region. The tool, however, does still work for all areas in England.
 
 **Python Modules Required:** *(listed alphabetically)*
 - arcpy
