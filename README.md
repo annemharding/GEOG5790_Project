@@ -2,7 +2,7 @@
 
 This repository contains the scripts, example data and other relevant files for my Independent Project assignment for GEOG5790. I have chosen to create a series of scripts/tools which someone with very little coding or GIS knowledge could use to extract water quality sampling data from the [Environment Agency (EA) Water Quality Archive (WQA)](https://environment.data.gov.uk/water-quality/view/landing) for a user-specified area. The tool will then allow the user to view and analyse the data interactively using a Jupyter Notebook.
 
-See '200754573_GEOG5790_Independent_Project.pdf' file for further information about purpose, development and use of repository.
+See [200754573_GEOG5790_Independent_Project.pdf](https://github.com/annemharding/GEOG5790_Project/blob/master/200754573_GEOG5790_Independent_Project.pdf) file for further information about purpose, development and use of repository.
 
 This code was developed using University of Leeds computer GEO-GISB-14 (Processor: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, Memory: 16.0 GB), ArcMap 10.6 and Python 3.7.3.
 
