@@ -4,10 +4,32 @@ This repository contains the scripts, example data and other relevant files for 
 
 See '200754573_GEOG5790_Independent_Project.pdf' file for further information about purpose, development and use of repository.
 
-Scripts:
+**Scripts**:
 - CSVDownloader.py - Python script to download all data from EA WQA and format into 1 .csv file for each EA operational region (containing all years of data).
 - CSVtoSHP.py - ArcGIS Script tool to create a .shp file containing locations of all EA water quality sampling points in England.
 - WQLocsIdentifier.py - ArcGIS Script tool to identify EA water quality sampling points within a user-specified area.
 - WQDataExtractor.py - ArcGIS Script tool to extract EA water quality sampling data using identified sampling points.
 - DataViewer.ipynb - Jupyter Notebook to allow user to plot, map and analyse data.
 - WQToolbox.pyt - ArcGIS toolbox containing Script tools.
+
+Note that the DataViewer.ipynb Jupyter Notebook must be opened in **Google Chrome** in order to load the widgets properly in the browser. Google Chrome may be downloaded from the following website: https://www.google.co.uk/chrome/?brand=CHBD&gclid=EAIaIQobChMIl-K8u8SE4gIVS7TtCh0OLQM6EAAYASAAEgLypvD_BwE&gclsrc=aw.ds
+
+**Python Modules Required:** *(listed alphabetically)*
+- arcpy
+- convertbng
+- csv
+- datetime
+- folium
+- glob
+- io
+- IPython
+- ipywidgets
+- matplotlib
+- numpy
+- os
+- pandas
+- plotly
+- requests
+- timeit
+
+
