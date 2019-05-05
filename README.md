@@ -1,6 +1,6 @@
 # GEOG5790_Project
 
-This repository contains the scripts, example data and other relevant files for my Independent Project assignment for GEOG5790. I have chosen to create a series of scripts/tools which someone with very little coding or GIS knowledge could use to extract water quality sampling data from the Environment Agency (EA) Water Quality Archive (WQA) (https://environment.data.gov.uk/water-quality/view/landing) for a user-specified area. The tool will then allow the user to view and analyse the data interactively using a Jupyter Notebook.
+This repository contains the scripts, example data and other relevant files for my Independent Project assignment for GEOG5790. I have chosen to create a series of scripts/tools which someone with very little coding or GIS knowledge could use to extract water quality sampling data from the [Environment Agency (EA) Water Quality Archive (WQA)](https://environment.data.gov.uk/water-quality/view/landing) for a user-specified area. The tool will then allow the user to view and analyse the data interactively using a Jupyter Notebook.
 
 See '200754573_GEOG5790_Independent_Project.pdf' file for further information about purpose, development and use of repository.
 
@@ -15,7 +15,9 @@ The code is structured as follows:
 - DataViewer.ipynb - Jupyter Notebook to allow user to plot, map and analyse data.
 - WQToolbox.tbx - ArcGIS toolbox containing Script tools.
 
-Note that the DataViewer.ipynb Jupyter Notebook must be opened in **Google Chrome** in order to load the widgets properly in the browser. Google Chrome may be downloaded from the following website: https://www.google.co.uk/chrome/?brand=CHBD&gclid=EAIaIQobChMIl-K8u8SE4gIVS7TtCh0OLQM6EAAYASAAEgLypvD_BwE&gclsrc=aw.ds
+Note that the DataViewer.ipynb Jupyter Notebook must be opened in **Google Chrome** in order to load the widgets properly in the browser. Google Chrome may be downloaded from [here.](https://www.google.co.uk/chrome/?brand=CHBD&gclid=EAIaIQobChMIl-K8u8SE4gIVS7TtCh0OLQM6EAAYASAAEgLypvD_BwE&gclsrc=aw.ds)
+
+[a link](https://github.com/user/repo/blob/branch/other_file.md)
 
 **Python Modules Required:** *(listed alphabetically)*
 - arcpy
