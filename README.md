@@ -8,6 +8,7 @@ This code was developed using University of Leeds computer GEO-GISB-14 (Processo
 
 The code is structured as follows:
 ![alt text](https://github.com/annemharding/GEOG5790_Project/blob/master/code_structure.png)
+Note that Stage 1 is only intended to be run infrequently (every few months) in order to process any updated data. It is expected that the outputs from Stage 1 will be kept as an "archive". Stage 2 and 3 may be run whenever it is necessary to extract, view and analyse water quality data for an area of interest. Stage 2 relies on the archive from Stage 1.
 
 **Scripts**:
 
@@ -26,7 +27,8 @@ This project makes use of an ArcGIS toolbox to host the 3 ArcGIS Script tools de
 - WQToolbox.tbx - ArcGIS toolbox containing Script tools.
 
 **Data**:
-The following data files are provided within the WQData_Selected.zip file:
+
+The following data files are provided within the WQData_Selected.zip file (63.6 MB compressed; 1.16 GB uncompressed):
 - england_wq_locs shapefile: .shp file containing locations of all EA sampling points in England (output from initial Stage 1 data processing).
 - ea-areas.csv - .csv file containing details for each of the EA operational areas (required for Stage 1) CSVDownloader.py).
 - EA_AdminBound shapefile - .shp file containing boundaries of each EA operational area (for information).
